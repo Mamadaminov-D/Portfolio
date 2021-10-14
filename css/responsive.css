@@ -30,6 +30,14 @@
 }
 
 @media screen and (max-width:400px) {
+  .about__img img {
+    padding-bottom: 30px;
+  }
+
+  .about-btn {
+    margin-bottom: 20px;
+  }
+
   .about__txt {
     width: 200px;
     text-align: center;
@@ -39,4 +47,16 @@
   .degrees span {
     padding-left: 200px;
   }
+
+  .offer__item {
+    margin-bottom: 60px;
   }
+
+  #skil-section {
+    padding-top: 0;
+  }
+
+  .skil__descrip {
+    padding-top: 20px;
+  }
+}
