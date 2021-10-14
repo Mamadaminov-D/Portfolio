@@ -23,4 +23,20 @@
     max-width: 350px;
     width: 90%;
   }
+
+  .degrees span {
+    padding-left:260px ;
+  }
 }
+
+@media screen and (max-width:400px) {
+  .about__txt {
+    width: 200px;
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .degrees span {
+    padding-left: 200px;
+  }
+  }
