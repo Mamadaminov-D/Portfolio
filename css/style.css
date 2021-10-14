@@ -500,6 +500,10 @@ ul {
   max-width: 100%;
 }
 
+.bxs-planet {
+  font-size: 30px;
+}
+
 .bxl-github {
   font-size: 30px;
 }
@@ -526,7 +530,7 @@ ul {
   font-weight: 800;
   text-align: center;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 20px 0;
   margin: 0;
   color: var(--black);
 }
@@ -578,5 +582,9 @@ ul {
   margin: 0 auto;
   margin-top: 20px;
   color: var(--white);
+}
+
+.post__item {
+  margin-bottom: 30px;
 }
 
