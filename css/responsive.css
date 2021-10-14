@@ -1,0 +1,21 @@
+@media screen and (max-width:950px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__item {
+    color: red;
+  }
+
+  .skil__txt {
+    width: 300px;
+  }
+
+  .about__txt {
+    width: 300px;
+    text-align: center;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
