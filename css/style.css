@@ -140,6 +140,7 @@ ul {
   background-color: var(--white);
 }
 
+
 .about__title {
   letter-spacing: 2px;
   text-align: center;
@@ -181,11 +182,6 @@ ul {
   margin-top: 20px;
   color: var(--black);
   transition: background 0.5s ease, color 0.5s ease;
-}
-
-.about__txt:hover {
-  background-color: var(--black);
-  color: var(--white);
 }
 
 .about-btn {
@@ -304,9 +300,10 @@ ul {
 
 
 .offer__title {
+  font-family: 'Andada Pro', serif;
   letter-spacing: 2px;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 800;
   text-align: center;
   margin: 0 auto;
   padding: 5px 0;
@@ -430,11 +427,12 @@ ul {
 }
 
 .self__span {
+  font-family: 'Raleway', sans-serif;
   display: block;
   letter-spacing: 2px;
   text-align: center;
-  font-size: 18px;
-  font-weight: 900;
+  font-size: 24px;
+  font-weight: 800;
   margin: 0 auto;
   padding: 5px 0;
   color: var(--white);
@@ -478,10 +476,15 @@ ul {
   transition: all 0.5s ease;
 }
 
+#projects-section {
+  background-color:var(--white);
+  padding: 40px 0;
+}
+
 .project__item:hover .hv_span {
-  width: 100%;
+  width: 92%;
   height: 100%;
-  opacity: 0.9;
+  opacity: 0.5;
 }
 
 .project__item:hover .words__txt {
@@ -500,12 +503,25 @@ ul {
   max-width: 100%;
 }
 
+.project__item:hover .bxs-planet {
+  opacity: 1;
+}
+
+.project__item:hover .bxl-github {
+  opacity: 1;
+}
+
 .bxs-planet {
   font-size: 30px;
+  color: var(--white);
+  opacity: 0;
 }
 
 .bxl-github {
+  margin-right: 10px;
   font-size: 30px;
+  color: var(--white);
+  opacity: 0;
 }
 
 
@@ -524,10 +540,11 @@ ul {
 }
 
 .post__title {
+  font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
   text-transform: capitalize;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 27px;
+  font-weight: 700;
   text-align: center;
   margin: 0 auto;
   padding: 20px 0;
