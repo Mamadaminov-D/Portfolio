@@ -605,3 +605,18 @@ ul {
   margin-bottom: 30px;
 }
 
+.take .bx {
+  color: var(--white);
+  font-size: 30px;
+  margin:30px 0;
+  display: inline-block;
+}
+
+.take a{
+  margin: 30px 20px;
+}
+
+.take a:hover {
+  color: wheat;
+}
+
