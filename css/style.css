@@ -616,7 +616,7 @@ ul {
   margin: 30px 20px;
 }
 
-.take a:hover {
+.take a .bx:hover {
   color: wheat;
 }
 
